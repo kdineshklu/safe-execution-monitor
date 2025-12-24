@@ -1,0 +1,1099 @@
+26105 execve("/usr/bin/bash", ["bash", "/home/kali/safe-execution-monito"...], 0x7ffc68523fa0 /* 23 vars */) = 0
+26105 brk(NULL)                         = 0x55c64d9b4000
+26105 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f63735b1000
+26105 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+26105 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+26105 fstat(3, {st_mode=S_IFREG|0644, st_size=107006, ...}) = 0
+26105 mmap(NULL, 107006, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f6373596000
+26105 close(3)                          = 0
+26105 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = 3
+26105 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+26105 fstat(3, {st_mode=S_IFREG|0644, st_size=220464, ...}) = 0
+26105 mmap(NULL, 219456, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f6373560000
+26105 mmap(0x7f637356f000, 81920, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xf000) = 0x7f637356f000
+26105 mmap(0x7f6373583000, 57344, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x23000) = 0x7f6373583000
+26105 mmap(0x7f6373591000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x31000) = 0x7f6373591000
+26105 close(3)                          = 0
+26105 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+26105 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\241\2\0\0\0\0\0"..., 832) = 832
+26105 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 896, 64) = 896
+26105 fstat(3, {st_mode=S_IFREG|0755, st_size=2191896, ...}) = 0
+26105 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 896, 64) = 896
+26105 mmap(NULL, 2244176, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f6373200000
+26105 mmap(0x7f6373228000, 1462272, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7f6373228000
+26105 mmap(0x7f637338d000, 540672, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x18d000) = 0x7f637338d000
+26105 mmap(0x7f6373411000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x210000) = 0x7f6373411000
+26105 mmap(0x7f6373417000, 52816, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f6373417000
+26105 close(3)                          = 0
+26105 mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f637355d000
+26105 arch_prctl(ARCH_SET_FS, 0x7f637355d740) = 0
+26105 set_tid_address(0x7f637355da10)   = 26105
+26105 set_robust_list(0x7f637355da20, 24) = 0
+26105 rseq(0x7f637355d680, 0x20, 0, 0x53053053) = 0
+26105 mprotect(0x7f6373411000, 16384, PROT_READ) = 0
+26105 mprotect(0x7f6373591000, 16384, PROT_READ) = 0
+26105 mprotect(0x55c62c2ce000, 16384, PROT_READ) = 0
+26105 mprotect(0x7f63735f4000, 8192, PROT_READ) = 0
+26105 prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+26105 getrandom("\x49\x3b\x06\xf9\x5c\x23\x48\xaf", 8, GRND_NONBLOCK) = 8
+26105 munmap(0x7f6373596000, 107006)    = 0
+26105 openat(AT_FDCWD, "/dev/tty", O_RDWR|O_NONBLOCK) = 3
+26105 close(3)                          = 0
+26105 brk(NULL)                         = 0x55c64d9b4000
+26105 brk(0x55c64d9d5000)               = 0x55c64d9d5000
+26105 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+26105 fstat(3, {st_mode=S_IFREG|0644, st_size=3063024, ...}) = 0
+26105 mmap(NULL, 3063024, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f6372e00000
+26105 close(3)                          = 0
+26105 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY|O_CLOEXEC) = 3
+26105 fstat(3, {st_mode=S_IFREG|0644, st_size=27028, ...}) = 0
+26105 mmap(NULL, 27028, PROT_READ, MAP_SHARED, 3, 0) = 0x7f63735aa000
+26105 close(3)                          = 0
+26105 futex(0x7f637341672c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+26105 getresuid([0], [0], [0])          = 0
+26105 getresgid([0], [0], [0])          = 0
+26105 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+26105 rt_sigaction(SIGCHLD, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f6373240590}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+26105 rt_sigaction(SIGCHLD, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f6373240590}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f6373240590}, 8) = 0
+26105 rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+26105 rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590}, 8) = 0
+26105 rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+26105 rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590}, 8) = 0
+26105 rt_sigaction(SIGTSTP, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+26105 rt_sigaction(SIGTSTP, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590}, 8) = 0
+26105 rt_sigaction(SIGTTIN, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+26105 rt_sigaction(SIGTTIN, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590}, 8) = 0
+26105 rt_sigaction(SIGTTOU, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+26105 rt_sigaction(SIGTTOU, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590}, 8) = 0
+26105 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+26105 rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590}, 8) = 0
+26105 uname({sysname="Linux", nodename="kali", ...}) = 0
+26105 newfstatat(AT_FDCWD, "/home/kali/safe-execution-monitor", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+26105 newfstatat(AT_FDCWD, ".", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+26105 newfstatat(AT_FDCWD, "/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+26105 newfstatat(AT_FDCWD, "/home/kali", {st_mode=S_IFDIR|0700, st_size=4096, ...}, 0) = 0
+26105 newfstatat(AT_FDCWD, "/home/kali/safe-execution-monitor", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+26105 getpid()                          = 26105
+26105 getppid()                         = 26103
+26105 newfstatat(AT_FDCWD, ".", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+26105 newfstatat(AT_FDCWD, "/usr/local/sbin/bash", 0x7ffdfa740e70, 0) = -1 ENOENT (No such file or directory)
+26105 newfstatat(AT_FDCWD, "/usr/local/bin/bash", 0x7ffdfa740e70, 0) = -1 ENOENT (No such file or directory)
+26105 newfstatat(AT_FDCWD, "/usr/sbin/bash", 0x7ffdfa740e70, 0) = -1 ENOENT (No such file or directory)
+26105 newfstatat(AT_FDCWD, "/usr/bin/bash", {st_mode=S_IFREG|0755, st_size=1380656, ...}, 0) = 0
+26105 newfstatat(AT_FDCWD, "/usr/bin/bash", {st_mode=S_IFREG|0755, st_size=1380656, ...}, 0) = 0
+26105 geteuid()                         = 0
+26105 getegid()                         = 0
+26105 getuid()                          = 0
+26105 getgid()                          = 0
+26105 access("/usr/bin/bash", X_OK)     = 0
+26105 newfstatat(AT_FDCWD, "/usr/bin/bash", {st_mode=S_IFREG|0755, st_size=1380656, ...}, 0) = 0
+26105 geteuid()                         = 0
+26105 getegid()                         = 0
+26105 getuid()                          = 0
+26105 getgid()                          = 0
+26105 access("/usr/bin/bash", R_OK)     = 0
+26105 getpid()                          = 26105
+26105 getppid()                         = 26103
+26105 getpid()                          = 26105
+26105 getppid()                         = 26103
+26105 getpgrp()                         = 26001
+26105 ioctl(2, TIOCGPGRP, [26001])      = 0
+26105 rt_sigaction(SIGCHLD, {sa_handler=0x55c62c1f0520, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f6373240590}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f6373240590}, 8) = 0
+26105 prlimit64(0, RLIMIT_NPROC, NULL, {rlim_cur=22362, rlim_max=22362}) = 0
+26105 openat(AT_FDCWD, "/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26105 openat(AT_FDCWD, "/usr/share/locale/en_US.UTF-8/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+26105 openat(AT_FDCWD, "/usr/share/locale/en_US.utf8/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+26105 openat(AT_FDCWD, "/usr/share/locale/en_US/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+26105 openat(AT_FDCWD, "/usr/share/locale/en.UTF-8/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+26105 openat(AT_FDCWD, "/usr/share/locale/en.utf8/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+26105 openat(AT_FDCWD, "/usr/share/locale/en/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+26105 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+26105 openat(AT_FDCWD, "/home/kali/safe-execution-monitor/samples/test_program.sh", O_RDONLY) = 3
+26105 newfstatat(AT_FDCWD, "/home/kali/safe-execution-monitor/samples/test_program.sh", {st_mode=S_IFREG|0755, st_size=107, ...}, 0) = 0
+26105 ioctl(3, TCGETS2, 0x7ffdfa741240) = -1 ENOTTY (Inappropriate ioctl for device)
+26105 lseek(3, 0, SEEK_CUR)             = 0
+26105 read(3, "#!/bin/bash\necho \"Hello from tes"..., 80) = 80
+26105 lseek(3, 0, SEEK_SET)             = 0
+26105 prlimit64(0, RLIMIT_NOFILE, NULL, {rlim_cur=1024, rlim_max=512*1024}) = 0
+26105 fcntl(255, F_GETFD)               = -1 EBADF (Bad file descriptor)
+26105 dup2(3, 255)                      = 255
+26105 close(3)                          = 0
+26105 fcntl(255, F_SETFD, FD_CLOEXEC)   = 0
+26105 fcntl(255, F_GETFL)               = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+26105 fstat(255, {st_mode=S_IFREG|0755, st_size=107, ...}) = 0
+26105 lseek(255, 0, SEEK_CUR)           = 0
+26105 read(255, "#!/bin/bash\necho \"Hello from tes"..., 107) = 107
+26105 fstat(1, {st_mode=S_IFCHR|0600, st_rdev=makedev(0x88, 0x2), ...}) = 0
+26105 write(1, "Hello from test program\n", 24) = 24
+26105 newfstatat(AT_FDCWD, ".", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+26105 newfstatat(AT_FDCWD, "/usr/local/sbin/touch", 0x7ffdfa740e80, 0) = -1 ENOENT (No such file or directory)
+26105 newfstatat(AT_FDCWD, "/usr/local/bin/touch", 0x7ffdfa740e80, 0) = -1 ENOENT (No such file or directory)
+26105 newfstatat(AT_FDCWD, "/usr/sbin/touch", 0x7ffdfa740e80, 0) = -1 ENOENT (No such file or directory)
+26105 newfstatat(AT_FDCWD, "/usr/bin/touch", {st_mode=S_IFREG|0755, st_size=88520, ...}, 0) = 0
+26105 newfstatat(AT_FDCWD, "/usr/bin/touch", {st_mode=S_IFREG|0755, st_size=88520, ...}, 0) = 0
+26105 geteuid()                         = 0
+26105 getegid()                         = 0
+26105 getuid()                          = 0
+26105 getgid()                          = 0
+26105 access("/usr/bin/touch", X_OK)    = 0
+26105 newfstatat(AT_FDCWD, "/usr/bin/touch", {st_mode=S_IFREG|0755, st_size=88520, ...}, 0) = 0
+26105 geteuid()                         = 0
+26105 getegid()                         = 0
+26105 getuid()                          = 0
+26105 getgid()                          = 0
+26105 access("/usr/bin/touch", R_OK)    = 0
+26105 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+26105 rt_sigprocmask(SIG_BLOCK, [INT TERM CHLD], [], 8) = 0
+26105 lseek(255, -40, SEEK_CUR)         = 67
+26105 rt_sigprocmask(SIG_BLOCK, ~[], [INT TERM CHLD], 8) = 0
+26105 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f637355da10) = 26106
+26106 set_robust_list(0x7f637355da20, 24 <unfinished ...>
+26105 rt_sigprocmask(SIG_SETMASK, [INT TERM CHLD] <unfinished ...>
+26106 <... set_robust_list resumed>)    = 0
+26105 <... rt_sigprocmask resumed>, NULL, 8) = 0
+26105 rt_sigprocmask(SIG_SETMASK, [] <unfinished ...>
+26106 rt_sigprocmask(SIG_SETMASK, [INT TERM CHLD] <unfinished ...>
+26105 <... rt_sigprocmask resumed>, NULL, 8) = 0
+26106 <... rt_sigprocmask resumed>, NULL, 8) = 0
+26105 rt_sigprocmask(SIG_BLOCK, [CHLD] <unfinished ...>
+26106 getpid( <unfinished ...>
+26105 <... rt_sigprocmask resumed>, [], 8) = 0
+26106 <... getpid resumed>)             = 26106
+26105 rt_sigprocmask(SIG_SETMASK, [] <unfinished ...>
+26106 close(255 <unfinished ...>
+26105 <... rt_sigprocmask resumed>, NULL, 8) = 0
+26106 <... close resumed>)              = 0
+26105 rt_sigprocmask(SIG_BLOCK, [CHLD] <unfinished ...>
+26106 rt_sigprocmask(SIG_SETMASK, [] <unfinished ...>
+26105 <... rt_sigprocmask resumed>, [], 8) = 0
+26106 <... rt_sigprocmask resumed>, NULL, 8) = 0
+26105 rt_sigaction(SIGINT, {sa_handler=0x55c62c1ed4b0, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590} <unfinished ...>
+26106 rt_sigaction(SIGTSTP, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590} <unfinished ...>
+26105 <... rt_sigaction resumed>, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590}, 8) = 0
+26106 <... rt_sigaction resumed>, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590}, 8) = 0
+26105 wait4(-1 <unfinished ...>
+26106 rt_sigaction(SIGTTIN, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590}, 8) = 0
+26106 rt_sigaction(SIGTTOU, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590}, 8) = 0
+26106 rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590}, 8) = 0
+26106 rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590}, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590}, 8) = 0
+26106 rt_sigaction(SIGCHLD, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f6373240590}, {sa_handler=0x55c62c1f0520, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f6373240590}, 8) = 0
+26106 execve("/usr/bin/touch", ["touch", "/tmp/testfile.txt"], 0x55c64d9c2200 /* 23 vars */) = 0
+26106 brk(NULL)                         = 0x556ddf796000
+26106 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7adc7bf000
+26106 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+26106 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+26106 fstat(3, {st_mode=S_IFREG|0644, st_size=107006, ...}) = 0
+26106 mmap(NULL, 107006, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7adc7a4000
+26106 close(3)                          = 0
+26106 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+26106 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\241\2\0\0\0\0\0"..., 832) = 832
+26106 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 896, 64) = 896
+26106 fstat(3, {st_mode=S_IFREG|0755, st_size=2191896, ...}) = 0
+26106 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 896, 64) = 896
+26106 mmap(NULL, 2244176, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7adc400000
+26106 mmap(0x7f7adc428000, 1462272, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7f7adc428000
+26106 mmap(0x7f7adc58d000, 540672, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x18d000) = 0x7f7adc58d000
+26106 mmap(0x7f7adc611000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x210000) = 0x7f7adc611000
+26106 mmap(0x7f7adc617000, 52816, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7adc617000
+26106 close(3)                          = 0
+26106 mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7adc7a1000
+26106 arch_prctl(ARCH_SET_FS, 0x7f7adc7a1740) = 0
+26106 set_tid_address(0x7f7adc7a1a10)   = 26106
+26106 set_robust_list(0x7f7adc7a1a20, 24) = 0
+26106 rseq(0x7f7adc7a1680, 0x20, 0, 0x53053053) = 0
+26106 mprotect(0x7f7adc611000, 16384, PROT_READ) = 0
+26106 mprotect(0x556da82fa000, 4096, PROT_READ) = 0
+26106 mprotect(0x7f7adc802000, 8192, PROT_READ) = 0
+26106 prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+26106 getrandom("\x0e\x4e\x0c\xbc\x8b\xc0\xc3\x29", 8, GRND_NONBLOCK) = 8
+26106 munmap(0x7f7adc7a4000, 107006)    = 0
+26106 brk(NULL)                         = 0x556ddf796000
+26106 brk(0x556ddf7b7000)               = 0x556ddf7b7000
+26106 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+26106 fstat(3, {st_mode=S_IFREG|0644, st_size=3063024, ...}) = 0
+26106 mmap(NULL, 3063024, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7adc000000
+26106 close(3)                          = 0
+26106 openat(AT_FDCWD, "/tmp/testfile.txt", O_WRONLY|O_CREAT|O_NOCTTY|O_NONBLOCK, 0666) = 3
+26106 dup2(3, 0)                        = 0
+26106 close(3)                          = 0
+26106 utimensat(0, NULL, NULL, 0)       = 0
+26106 close(0)                          = 0
+26106 close(1)                          = 0
+26106 close(2)                          = 0
+26106 exit_group(0)                     = ?
+26106 +++ exited with 0 +++
+26105 <... wait4 resumed>, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 26106
+26105 rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590}, {sa_handler=0x55c62c1ed4b0, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590}, 8) = 0
+26105 ioctl(2, TIOCGWINSZ, {ws_row=29, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+26105 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+26105 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=26106, si_uid=0, si_status=0, si_utime=0, si_stime=1 /* 0.01 s */} ---
+26105 wait4(-1, 0x7ffdfa740910, WNOHANG, NULL) = -1 ECHILD (No child processes)
+26105 rt_sigreturn({mask=[]})           = 0
+26105 read(255, "curl -s https://example.com > /d"..., 107) = 40
+26105 newfstatat(AT_FDCWD, ".", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+26105 newfstatat(AT_FDCWD, "/usr/local/sbin/curl", 0x7ffdfa740e80, 0) = -1 ENOENT (No such file or directory)
+26105 newfstatat(AT_FDCWD, "/usr/local/bin/curl", 0x7ffdfa740e80, 0) = -1 ENOENT (No such file or directory)
+26105 newfstatat(AT_FDCWD, "/usr/sbin/curl", 0x7ffdfa740e80, 0) = -1 ENOENT (No such file or directory)
+26105 newfstatat(AT_FDCWD, "/usr/bin/curl", {st_mode=S_IFREG|0755, st_size=325976, ...}, 0) = 0
+26105 newfstatat(AT_FDCWD, "/usr/bin/curl", {st_mode=S_IFREG|0755, st_size=325976, ...}, 0) = 0
+26105 geteuid()                         = 0
+26105 getegid()                         = 0
+26105 getuid()                          = 0
+26105 getgid()                          = 0
+26105 access("/usr/bin/curl", X_OK)     = 0
+26105 newfstatat(AT_FDCWD, "/usr/bin/curl", {st_mode=S_IFREG|0755, st_size=325976, ...}, 0) = 0
+26105 geteuid()                         = 0
+26105 getegid()                         = 0
+26105 getuid()                          = 0
+26105 getgid()                          = 0
+26105 access("/usr/bin/curl", R_OK)     = 0
+26105 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+26105 rt_sigprocmask(SIG_BLOCK, [INT TERM CHLD], [], 8) = 0
+26105 rt_sigprocmask(SIG_BLOCK, ~[], [INT TERM CHLD], 8) = 0
+26105 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f637355da10) = 26107
+26107 set_robust_list(0x7f637355da20, 24 <unfinished ...>
+26105 rt_sigprocmask(SIG_SETMASK, [INT TERM CHLD] <unfinished ...>
+26107 <... set_robust_list resumed>)    = 0
+26105 <... rt_sigprocmask resumed>, NULL, 8) = 0
+26107 rt_sigprocmask(SIG_SETMASK, [INT TERM CHLD] <unfinished ...>
+26105 rt_sigprocmask(SIG_SETMASK, [] <unfinished ...>
+26107 <... rt_sigprocmask resumed>, NULL, 8) = 0
+26105 <... rt_sigprocmask resumed>, NULL, 8) = 0
+26107 getpid( <unfinished ...>
+26105 rt_sigprocmask(SIG_BLOCK, [CHLD] <unfinished ...>
+26107 <... getpid resumed>)             = 26107
+26105 <... rt_sigprocmask resumed>, [], 8) = 0
+26107 close(255 <unfinished ...>
+26105 rt_sigprocmask(SIG_SETMASK, [] <unfinished ...>
+26107 <... close resumed>)              = 0
+26105 <... rt_sigprocmask resumed>, NULL, 8) = 0
+26107 rt_sigprocmask(SIG_SETMASK, [] <unfinished ...>
+26105 rt_sigprocmask(SIG_BLOCK, [CHLD] <unfinished ...>
+26107 <... rt_sigprocmask resumed>, NULL, 8) = 0
+26105 <... rt_sigprocmask resumed>, [], 8) = 0
+26107 rt_sigaction(SIGTSTP, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590} <unfinished ...>
+26105 rt_sigaction(SIGINT, {sa_handler=0x55c62c1ed4b0, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590} <unfinished ...>
+26107 <... rt_sigaction resumed>, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590}, 8) = 0
+26105 <... rt_sigaction resumed>, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590}, 8) = 0
+26107 rt_sigaction(SIGTTIN, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590} <unfinished ...>
+26105 wait4(-1 <unfinished ...>
+26107 <... rt_sigaction resumed>, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590}, 8) = 0
+26107 rt_sigaction(SIGTTOU, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590}, 8) = 0
+26107 rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590}, 8) = 0
+26107 rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590}, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590}, 8) = 0
+26107 rt_sigaction(SIGCHLD, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f6373240590}, {sa_handler=0x55c62c1f0520, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f6373240590}, 8) = 0
+26107 openat(AT_FDCWD, "/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+26107 dup2(3, 1)                        = 1
+26107 close(3)                          = 0
+26107 execve("/usr/bin/curl", ["curl", "-s", "https://example.com"], 0x55c64d9c2200 /* 23 vars */) = 0
+26107 brk(NULL)                         = 0x55c577422000
+26107 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc933a13000
+26107 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+26107 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+26107 fstat(3, {st_mode=S_IFREG|0644, st_size=107006, ...}) = 0
+26107 mmap(NULL, 107006, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fc9339f8000
+26107 close(3)                          = 0
+26107 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libcurl.so.4", O_RDONLY|O_CLOEXEC) = 3
+26107 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+26107 fstat(3, {st_mode=S_IFREG|0644, st_size=1021080, ...}) = 0
+26107 mmap(NULL, 1020376, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc9338fe000
+26107 mmap(0x7fc933914000, 700416, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7fc933914000
+26107 mmap(0x7fc9339bf000, 196608, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xc1000) = 0x7fc9339bf000
+26107 mmap(0x7fc9339ef000, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xf1000) = 0x7fc9339ef000
+26107 mmap(0x7fc9339f7000, 472, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc9339f7000
+26107 close(3)                          = 0
+26107 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+26107 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+26107 fstat(3, {st_mode=S_IFREG|0644, st_size=125376, ...}) = 0
+26107 mmap(NULL, 127376, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc9338de000
+26107 mmap(0x7fc9338e1000, 81920, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fc9338e1000
+26107 mmap(0x7fc9338f5000, 28672, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7fc9338f5000
+26107 mmap(0x7fc9338fc000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1d000) = 0x7fc9338fc000
+26107 close(3)                          = 0
+26107 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+26107 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\241\2\0\0\0\0\0"..., 832) = 832
+26107 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 896, 64) = 896
+26107 fstat(3, {st_mode=S_IFREG|0755, st_size=2191896, ...}) = 0
+26107 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 896, 64) = 896
+26107 mmap(NULL, 2244176, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc933600000
+26107 mmap(0x7fc933628000, 1462272, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7fc933628000
+26107 mmap(0x7fc93378d000, 540672, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x18d000) = 0x7fc93378d000
+26107 mmap(0x7fc933811000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x210000) = 0x7fc933811000
+26107 mmap(0x7fc933817000, 52816, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc933817000
+26107 close(3)                          = 0
+26107 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libnghttp3.so.9", O_RDONLY|O_CLOEXEC) = 3
+26107 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+26107 fstat(3, {st_mode=S_IFREG|0644, st_size=181584, ...}) = 0
+26107 mmap(NULL, 183808, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc9338b1000
+26107 mmap(0x7fc9338b5000, 90112, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7fc9338b5000
+26107 mmap(0x7fc9338cb000, 65536, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1a000) = 0x7fc9338cb000
+26107 mmap(0x7fc9338db000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x29000) = 0x7fc9338db000
+26107 close(3)                          = 0
+26107 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libngtcp2_crypto_ossl.so.0", O_RDONLY|O_CLOEXEC) = 3
+26107 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+26107 fstat(3, {st_mode=S_IFREG|0644, st_size=47912, ...}) = 0
+26107 mmap(NULL, 50080, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc9338a4000
+26107 mmap(0x7fc9338a7000, 24576, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fc9338a7000
+26107 mmap(0x7fc9338ad000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9000) = 0x7fc9338ad000
+26107 mmap(0x7fc9338af000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7fc9338af000
+26107 close(3)                          = 0
+26107 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libngtcp2.so.16", O_RDONLY|O_CLOEXEC) = 3
+26107 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+26107 fstat(3, {st_mode=S_IFREG|0644, st_size=322088, ...}) = 0
+26107 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc9338a2000
+26107 mmap(NULL, 324224, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc933852000
+26107 mmap(0x7fc933855000, 221184, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fc933855000
+26107 mmap(0x7fc93388b000, 86016, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x39000) = 0x7fc93388b000
+26107 mmap(0x7fc9338a0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4d000) = 0x7fc9338a0000
+26107 close(3)                          = 0
+26107 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libnghttp2.so.14", O_RDONLY|O_CLOEXEC) = 3
+26107 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+26107 fstat(3, {st_mode=S_IFREG|0644, st_size=199152, ...}) = 0
+26107 mmap(NULL, 201232, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc9335ce000
+26107 mmap(0x7fc9335d4000, 98304, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7fc9335d4000
+26107 mmap(0x7fc9335ec000, 65536, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e000) = 0x7fc9335ec000
+26107 mmap(0x7fc9335fc000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2d000) = 0x7fc9335fc000
+26107 close(3)                          = 0
+26107 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libidn2.so.0", O_RDONLY|O_CLOEXEC) = 3
+26107 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+26107 fstat(3, {st_mode=S_IFREG|0644, st_size=202872, ...}) = 0
+26107 mmap(NULL, 204952, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc93359b000
+26107 mmap(0x7fc93359d000, 32768, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fc93359d000
+26107 mmap(0x7fc9335a5000, 159744, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7fc9335a5000
+26107 mmap(0x7fc9335cc000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x30000) = 0x7fc9335cc000
+26107 close(3)                          = 0
+26107 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/librtmp.so.1", O_RDONLY|O_CLOEXEC) = 3
+26107 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+26107 fstat(3, {st_mode=S_IFREG|0644, st_size=122256, ...}) = 0
+26107 mmap(NULL, 120288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc933834000
+26107 mmap(0x7fc933839000, 65536, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5000) = 0x7fc933839000
+26107 mmap(0x7fc933849000, 28672, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7fc933849000
+26107 mmap(0x7fc933850000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c000) = 0x7fc933850000
+26107 close(3)                          = 0
+26107 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libldap.so.2", O_RDONLY|O_CLOEXEC) = 3
+26107 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+26107 fstat(3, {st_mode=S_IFREG|0644, st_size=400912, ...}) = 0
+26107 mmap(NULL, 408416, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc933537000
+26107 mmap(0x7fc933547000, 245760, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x10000) = 0x7fc933547000
+26107 mmap(0x7fc933583000, 77824, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4c000) = 0x7fc933583000
+26107 mmap(0x7fc933596000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5f000) = 0x7fc933596000
+26107 mmap(0x7fc933599000, 7008, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc933599000
+26107 close(3)                          = 0
+26107 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/liblber.so.2", O_RDONLY|O_CLOEXEC) = 3
+26107 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+26107 fstat(3, {st_mode=S_IFREG|0644, st_size=63824, ...}) = 0
+26107 mmap(NULL, 65952, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc933526000
+26107 mmap(0x7fc933529000, 32768, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fc933529000
+26107 mmap(0x7fc933531000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xb000) = 0x7fc933531000
+26107 mmap(0x7fc933535000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe000) = 0x7fc933535000
+26107 close(3)                          = 0
+26107 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libssh2.so.1", O_RDONLY|O_CLOEXEC) = 3
+26107 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+26107 fstat(3, {st_mode=S_IFREG|0644, st_size=293376, ...}) = 0
+26107 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc933832000
+26107 mmap(NULL, 291440, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc9334de000
+26107 mmap(0x7fc9334e5000, 192512, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7fc9334e5000
+26107 mmap(0x7fc933514000, 61440, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x36000) = 0x7fc933514000
+26107 mmap(0x7fc933523000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x45000) = 0x7fc933523000
+26107 close(3)                          = 0
+26107 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libpsl.so.5", O_RDONLY|O_CLOEXEC) = 3
+26107 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+26107 fstat(3, {st_mode=S_IFREG|0644, st_size=75616, ...}) = 0
+26107 mmap(NULL, 77840, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc9334ca000
+26107 mmap(0x7fc9334cc000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fc9334cc000
+26107 mmap(0x7fc9334ce000, 57344, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7fc9334ce000
+26107 mmap(0x7fc9334dc000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x11000) = 0x7fc9334dc000
+26107 close(3)                          = 0
+26107 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libssl.so.3", O_RDONLY|O_CLOEXEC) = 3
+26107 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+26107 fstat(3, {st_mode=S_IFREG|0644, st_size=1101760, ...}) = 0
+26107 mmap(NULL, 1099752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc9333bd000
+26107 mmap(0x7fc9333df000, 704512, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x22000) = 0x7fc9333df000
+26107 mmap(0x7fc93348b000, 200704, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xce000) = 0x7fc93348b000
+26107 mmap(0x7fc9334bc000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xff000) = 0x7fc9334bc000
+26107 close(3)                          = 0
+26107 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libcrypto.so.3", O_RDONLY|O_CLOEXEC) = 3
+26107 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+26107 fstat(3, {st_mode=S_IFREG|0644, st_size=6373952, ...}) = 0
+26107 mmap(NULL, 6384680, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc932c00000
+26107 mmap(0x7fc932ce4000, 3678208, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe4000) = 0x7fc932ce4000
+26107 mmap(0x7fc933066000, 1236992, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x466000) = 0x7fc933066000
+26107 mmap(0x7fc933194000, 524288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x594000) = 0x7fc933194000
+26107 mmap(0x7fc933214000, 11304, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc933214000
+26107 close(3)                          = 0
+26107 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2", O_RDONLY|O_CLOEXEC) = 3
+26107 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+26107 fstat(3, {st_mode=S_IFREG|0644, st_size=346904, ...}) = 0
+26107 mmap(NULL, 349408, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc933367000
+26107 mmap(0x7fc933373000, 229376, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xc000) = 0x7fc933373000
+26107 mmap(0x7fc9333ab000, 57344, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x44000) = 0x7fc9333ab000
+26107 mmap(0x7fc9333b9000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x51000) = 0x7fc9333b9000
+26107 close(3)                          = 0
+26107 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libzstd.so.1", O_RDONLY|O_CLOEXEC) = 3
+26107 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+26107 fstat(3, {st_mode=S_IFREG|0644, st_size=821240, ...}) = 0
+26107 mmap(NULL, 823352, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc93329d000
+26107 mmap(0x7fc9332a2000, 716800, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5000) = 0x7fc9332a2000
+26107 mmap(0x7fc933351000, 81920, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xb4000) = 0x7fc933351000
+26107 mmap(0x7fc933365000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xc7000) = 0x7fc933365000
+26107 close(3)                          = 0
+26107 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libbrotlidec.so.1", O_RDONLY|O_CLOEXEC) = 3
+26107 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+26107 fstat(3, {st_mode=S_IFREG|0644, st_size=51376, ...}) = 0
+26107 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc933830000
+26107 mmap(NULL, 53368, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc93328f000
+26107 mmap(0x7fc933290000, 32768, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7fc933290000
+26107 mmap(0x7fc933298000, 12288, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9000) = 0x7fc933298000
+26107 mmap(0x7fc93329b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xb000) = 0x7fc93329b000
+26107 close(3)                          = 0
+26107 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libunistring.so.5", O_RDONLY|O_CLOEXEC) = 3
+26107 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+26107 fstat(3, {st_mode=S_IFREG|0644, st_size=1996840, ...}) = 0
+26107 mmap(NULL, 1997072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc932a18000
+26107 mmap(0x7fc932a2b000, 274432, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x13000) = 0x7fc932a2b000
+26107 mmap(0x7fc932a6e000, 1626112, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x56000) = 0x7fc932a6e000
+26107 mmap(0x7fc932bfb000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e3000) = 0x7fc932bfb000
+26107 close(3)                          = 0
+26107 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libgnutls.so.30", O_RDONLY|O_CLOEXEC) = 3
+26107 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+26107 fstat(3, {st_mode=S_IFREG|0644, st_size=2302200, ...}) = 0
+26107 mmap(NULL, 2314144, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc932600000
+26107 mmap(0x7fc932639000, 1339392, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x39000) = 0x7fc932639000
+26107 mmap(0x7fc932780000, 643072, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x180000) = 0x7fc932780000
+26107 mmap(0x7fc93281d000, 86016, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x21d000) = 0x7fc93281d000
+26107 mmap(0x7fc932832000, 12192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc932832000
+26107 close(3)                          = 0
+26107 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libhogweed.so.6", O_RDONLY|O_CLOEXEC) = 3
+26107 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+26107 fstat(3, {st_mode=S_IFREG|0644, st_size=305144, ...}) = 0
+26107 mmap(NULL, 307216, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc933243000
+26107 mmap(0x7fc93324c000, 86016, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9000) = 0x7fc93324c000
+26107 mmap(0x7fc933261000, 176128, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e000) = 0x7fc933261000
+26107 mmap(0x7fc93328c000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x48000) = 0x7fc93328c000
+26107 close(3)                          = 0
+26107 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libnettle.so.8", O_RDONLY|O_CLOEXEC) = 3
+26107 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+26107 fstat(3, {st_mode=S_IFREG|0644, st_size=350312, ...}) = 0
+26107 mmap(NULL, 352384, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc9329c1000
+26107 mmap(0x7fc9329cf000, 180224, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe000) = 0x7fc9329cf000
+26107 mmap(0x7fc9329fb000, 102400, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3a000) = 0x7fc9329fb000
+26107 mmap(0x7fc932a14000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x52000) = 0x7fc932a14000
+26107 close(3)                          = 0
+26107 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libgmp.so.10", O_RDONLY|O_CLOEXEC) = 3
+26107 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+26107 fstat(3, {st_mode=S_IFREG|0644, st_size=607112, ...}) = 0
+26107 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc93382e000
+26107 mmap(NULL, 621480, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc932929000
+26107 mprotect(0x7fc932935000, 565248, PROT_NONE) = 0
+26107 mmap(0x7fc932935000, 413696, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xc000) = 0x7fc932935000
+26107 mmap(0x7fc93299a000, 139264, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x71000) = 0x7fc93299a000
+26107 mmap(0x7fc9329bf000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x92000) = 0x7fc9329bf000
+26107 close(3)                          = 0
+26107 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libsasl2.so.2", O_RDONLY|O_CLOEXEC) = 3
+26107 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+26107 fstat(3, {st_mode=S_IFREG|0644, st_size=109232, ...}) = 0
+26107 mmap(NULL, 111528, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc933227000
+26107 mmap(0x7fc93322a000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fc93322a000
+26107 mmap(0x7fc93323b000, 24576, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x14000) = 0x7fc93323b000
+26107 mmap(0x7fc933241000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19000) = 0x7fc933241000
+26107 close(3)                          = 0
+26107 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libkrb5.so.3", O_RDONLY|O_CLOEXEC) = 3
+26107 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+26107 fstat(3, {st_mode=S_IFREG|0644, st_size=888080, ...}) = 0
+26107 mmap(NULL, 890784, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc93284f000
+26107 mmap(0x7fc932872000, 393216, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x23000) = 0x7fc932872000
+26107 mmap(0x7fc9328d2000, 290816, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x83000) = 0x7fc9328d2000
+26107 mmap(0x7fc932919000, 65536, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xc9000) = 0x7fc932919000
+26107 close(3)                          = 0
+26107 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libk5crypto.so.3", O_RDONLY|O_CLOEXEC) = 3
+26107 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+26107 fstat(3, {st_mode=S_IFREG|0644, st_size=183048, ...}) = 0
+26107 mmap(NULL, 180952, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc9325d3000
+26107 mmap(0x7fc9325d7000, 106496, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7fc9325d7000
+26107 mmap(0x7fc9325f1000, 53248, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e000) = 0x7fc9325f1000
+26107 mmap(0x7fc9325fe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2b000) = 0x7fc9325fe000
+26107 close(3)                          = 0
+26107 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libcom_err.so.2", O_RDONLY|O_CLOEXEC) = 3
+26107 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+26107 fstat(3, {st_mode=S_IFREG|0644, st_size=18344, ...}) = 0
+26107 mmap(NULL, 20552, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc933828000
+26107 mmap(0x7fc93382a000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fc93382a000
+26107 mmap(0x7fc93382b000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fc93382b000
+26107 mmap(0x7fc93382c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fc93382c000
+26107 close(3)                          = 0
+26107 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libkrb5support.so.0", O_RDONLY|O_CLOEXEC) = 3
+26107 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+26107 fstat(3, {st_mode=S_IFREG|0644, st_size=52224, ...}) = 0
+26107 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc933826000
+26107 mmap(NULL, 50536, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc93321a000
+26107 mmap(0x7fc93321d000, 24576, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fc93321d000
+26107 mmap(0x7fc933223000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9000) = 0x7fc933223000
+26107 mmap(0x7fc933225000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xb000) = 0x7fc933225000
+26107 close(3)                          = 0
+26107 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1", O_RDONLY|O_CLOEXEC) = 3
+26107 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+26107 fstat(3, {st_mode=S_IFREG|0644, st_size=141496, ...}) = 0
+26107 mmap(NULL, 139320, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc9325b0000
+26107 mmap(0x7fc9325b1000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7fc9325b1000
+26107 mmap(0x7fc9325b2000, 126976, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fc9325b2000
+26107 mmap(0x7fc9325d1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x21000) = 0x7fc9325d1000
+26107 close(3)                          = 0
+26107 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libp11-kit.so.0", O_RDONLY|O_CLOEXEC) = 3
+26107 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+26107 fstat(3, {st_mode=S_IFREG|0644, st_size=1750880, ...}) = 0
+26107 mmap(NULL, 1750824, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc932404000
+26107 mmap(0x7fc932440000, 868352, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3c000) = 0x7fc932440000
+26107 mmap(0x7fc932514000, 512000, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x110000) = 0x7fc932514000
+26107 mmap(0x7fc932591000, 122880, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x18d000) = 0x7fc932591000
+26107 mmap(0x7fc9325af000, 1832, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc9325af000
+26107 close(3)                          = 0
+26107 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libtasn1.so.6", O_RDONLY|O_CLOEXEC) = 3
+26107 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+26107 fstat(3, {st_mode=S_IFREG|0644, st_size=88064, ...}) = 0
+26107 mmap(NULL, 86568, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc932839000
+26107 mmap(0x7fc93283c000, 53248, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fc93283c000
+26107 mmap(0x7fc932849000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x10000) = 0x7fc932849000
+26107 mmap(0x7fc93284d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x14000) = 0x7fc93284d000
+26107 close(3)                          = 0
+26107 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libkeyutils.so.1", O_RDONLY|O_CLOEXEC) = 3
+26107 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+26107 fstat(3, {st_mode=S_IFREG|0644, st_size=22448, ...}) = 0
+26107 mmap(NULL, 24592, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc9323fd000
+26107 mmap(0x7fc9323ff000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fc9323ff000
+26107 mmap(0x7fc932401000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7fc932401000
+26107 mmap(0x7fc932402000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7fc932402000
+26107 close(3)                          = 0
+26107 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libresolv.so.2", O_RDONLY|O_CLOEXEC) = 3
+26107 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+26107 fstat(3, {st_mode=S_IFREG|0644, st_size=72200, ...}) = 0
+26107 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc933824000
+26107 mmap(NULL, 80008, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc9323e9000
+26107 mmap(0x7fc9323ec000, 36864, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fc9323ec000
+26107 mmap(0x7fc9323f5000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xc000) = 0x7fc9323f5000
+26107 mmap(0x7fc9323f9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x10000) = 0x7fc9323f9000
+26107 mmap(0x7fc9323fb000, 6280, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc9323fb000
+26107 close(3)                          = 0
+26107 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libffi.so.8", O_RDONLY|O_CLOEXEC) = 3
+26107 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+26107 fstat(3, {st_mode=S_IFREG|0644, st_size=59912, ...}) = 0
+26107 mmap(NULL, 63296, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc9323d9000
+26107 mmap(0x7fc9323db000, 40960, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fc9323db000
+26107 mmap(0x7fc9323e5000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xc000) = 0x7fc9323e5000
+26107 mmap(0x7fc9323e7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xd000) = 0x7fc9323e7000
+26107 close(3)                          = 0
+26107 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc933218000
+26107 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc932837000
+26107 arch_prctl(ARCH_SET_FS, 0x7fc932837f40) = 0
+26107 set_tid_address(0x7fc932838210)   = 26107
+26107 set_robust_list(0x7fc932838220, 24) = 0
+26107 rseq(0x7fc932837c20, 0x20, 0, 0x53053053) = 0
+26107 mprotect(0x7fc933811000, 16384, PROT_READ) = 0
+26107 mprotect(0x7fc9323e7000, 4096, PROT_READ) = 0
+26107 mprotect(0x7fc9323f9000, 4096, PROT_READ) = 0
+26107 mprotect(0x7fc932402000, 4096, PROT_READ) = 0
+26107 mprotect(0x7fc93284d000, 4096, PROT_READ) = 0
+26107 mprotect(0x7fc932591000, 69632, PROT_READ) = 0
+26107 mprotect(0x7fc9325d1000, 4096, PROT_READ) = 0
+26107 mprotect(0x7fc933225000, 4096, PROT_READ) = 0
+26107 mprotect(0x7fc93382c000, 4096, PROT_READ) = 0
+26107 mprotect(0x7fc9325fe000, 4096, PROT_READ) = 0
+26107 mprotect(0x7fc932919000, 53248, PROT_READ) = 0
+26107 mprotect(0x7fc9338fc000, 4096, PROT_READ) = 0
+26107 mprotect(0x7fc933365000, 4096, PROT_READ) = 0
+26107 mprotect(0x7fc933194000, 512000, PROT_READ) = 0
+26107 mprotect(0x7fc933241000, 4096, PROT_READ) = 0
+26107 mprotect(0x7fc9329bf000, 4096, PROT_READ) = 0
+26107 mprotect(0x7fc932a14000, 12288, PROT_READ) = 0
+26107 mprotect(0x7fc93328c000, 8192, PROT_READ) = 0
+26107 mprotect(0x7fc932bfb000, 16384, PROT_READ) = 0
+26107 mprotect(0x7fc9335cc000, 4096, PROT_READ) = 0
+26107 mprotect(0x7fc93281d000, 73728, PROT_READ) = 0
+26107 mprotect(0x7fc93329b000, 4096, PROT_READ) = 0
+26107 mprotect(0x7fc9333b9000, 8192, PROT_READ) = 0
+26107 mprotect(0x7fc9334bc000, 40960, PROT_READ) = 0
+26107 mprotect(0x7fc9334dc000, 4096, PROT_READ) = 0
+26107 mprotect(0x7fc933523000, 8192, PROT_READ) = 0
+26107 mprotect(0x7fc933535000, 4096, PROT_READ) = 0
+26107 mprotect(0x7fc933596000, 8192, PROT_READ) = 0
+26107 mprotect(0x7fc933850000, 4096, PROT_READ) = 0
+26107 mprotect(0x7fc9335fc000, 12288, PROT_READ) = 0
+26107 mprotect(0x7fc9338a0000, 4096, PROT_READ) = 0
+26107 mprotect(0x7fc9338af000, 4096, PROT_READ) = 0
+26107 mprotect(0x7fc9338db000, 4096, PROT_READ) = 0
+26107 mprotect(0x7fc9339ef000, 28672, PROT_READ) = 0
+26107 mprotect(0x55c5515a3000, 20480, PROT_READ) = 0
+26107 mprotect(0x7fc933a56000, 8192, PROT_READ) = 0
+26107 prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+26107 getrandom("\xdf\x77\x7e\xe3\x61\xc9\x56\xc7", 8, GRND_NONBLOCK) = 8
+26107 munmap(0x7fc9339f8000, 107006)    = 0
+26107 brk(NULL)                         = 0x55c577422000
+26107 brk(0x55c577443000)               = 0x55c577443000
+26107 brk(0x55c577464000)               = 0x55c577464000
+26107 rt_sigprocmask(SIG_BLOCK, ~[], [], 8) = 0
+26107 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_DROPPABLE|MAP_ANONYMOUS, -1, 0) = 0x7fc933a12000
+26107 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc933a11000
+26107 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+26107 getrandom("\x88\x4d\xfb\x5d\x6a\x94\x87\x39\xf9\xe1\x72\xff\xf9\xfe\xf6\x4e\x79\x0d\x44\x1e\x8a\x6d\x78\xca\xc6\x74\x77\x8c\x82\xd4\xb3\xd7", 32, 0) = 32
+26107 newfstatat(AT_FDCWD, "/etc/gnutls/config", 0x7fffab3277c0, 0) = -1 ENOENT (No such file or directory)
+26107 fcntl(0, F_GETFD)                 = 0
+26107 fcntl(1, F_GETFD)                 = 0
+26107 fcntl(2, F_GETFD)                 = 0
+26107 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+26107 futex(0x7fc933214314, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+26107 futex(0x7fc933214308, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+26107 futex(0x7fc933214300, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+26107 futex(0x7fc933214400, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+26107 futex(0x7fc9332142e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+26107 futex(0x7fc9332142e0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+26107 futex(0x7fc933213ac8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+26107 futex(0x7fc933213e2c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+26107 futex(0x7fc933213d64, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+26107 futex(0x7fc93321434c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+26107 futex(0x7fc933213d58, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+26107 futex(0x7fc9332142f8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+26107 openat(AT_FDCWD, "/usr/lib/ssl/openssl.cnf", O_RDONLY) = 3
+26107 fstat(3, {st_mode=S_IFREG|0644, st_size=12669, ...}) = 0
+26107 read(3, "#\n# OpenSSL example configuratio"..., 4096) = 4096
+26107 newfstatat(AT_FDCWD, "/etc/ssl/kali.cnf", {st_mode=S_IFREG|0644, st_size=689, ...}, 0) = 0
+26107 openat(AT_FDCWD, "/etc/ssl/kali.cnf", O_RDONLY) = 4
+26107 fstat(4, {st_mode=S_IFREG|0644, st_size=689, ...}) = 0
+26107 read(4, "# The configurations proposed he"..., 4096) = 689
+26107 read(4, "", 4096)                 = 0
+26107 close(4)                          = 0
+26107 read(3, "\t# keep passed DN ordering\n\n# A "..., 4096) = 4096
+26107 read(3, "name: another PKIX recommendatio"..., 4096) = 4096
+26107 read(3, "nsta.priv.pem\ncert = $insta::cer"..., 4096) = 381
+26107 read(3, "", 4096)                 = 0
+26107 close(3)                          = 0
+26107 futex(0x7fc933213b08, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+26107 futex(0x7fc933213b64, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+26107 futex(0x7fc9332142b4, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+26107 futex(0x7fc933213ae8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+26107 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ossl-modules/legacy.so", O_RDONLY|O_CLOEXEC) = 3
+26107 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+26107 fstat(3, {st_mode=S_IFREG|0644, st_size=141224, ...}) = 0
+26107 brk(0x55c577485000)               = 0x55c577485000
+26107 mmap(NULL, 143472, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc9323b5000
+26107 mmap(0x7fc9323bc000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7fc9323bc000
+26107 mmap(0x7fc9323cd000, 24576, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x18000) = 0x7fc9323cd000
+26107 mmap(0x7fc9323d3000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1d000) = 0x7fc9323d3000
+26107 close(3)                          = 0
+26107 mprotect(0x7fc9323d3000, 20480, PROT_READ) = 0
+26107 futex(0x7fc933213b30, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+26107 futex(0x7fc9332142d8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+26107 futex(0x7fc9334c97e0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+26107 brk(0x55c5774a6000)               = 0x55c5774a6000
+26107 brk(0x55c5774c7000)               = 0x55c5774c7000
+26107 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+26107 fstat(3, {st_mode=S_IFREG|0644, st_size=3063024, ...}) = 0
+26107 mmap(NULL, 3063024, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fc932000000
+26107 close(3)                          = 0
+26107 openat(AT_FDCWD, "/root/.curlrc", O_RDONLY) = -1 ENOENT (No such file or directory)
+26107 openat(AT_FDCWD, "/root/.config/curlrc", O_RDONLY) = -1 ENOENT (No such file or directory)
+26107 geteuid()                         = 0
+26107 socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+26107 connect(3, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+26107 close(3)                          = 0
+26107 socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+26107 connect(3, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+26107 close(3)                          = 0
+26107 newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=574, ...}, 0) = 0
+26107 newfstatat(AT_FDCWD, "/", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+26107 openat(AT_FDCWD, "/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 3
+26107 fstat(3, {st_mode=S_IFREG|0644, st_size=574, ...}) = 0
+26107 read(3, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 574
+26107 read(3, "", 4096)                 = 0
+26107 fstat(3, {st_mode=S_IFREG|0644, st_size=574, ...}) = 0
+26107 close(3)                          = 0
+26107 openat(AT_FDCWD, "/etc/passwd", O_RDONLY|O_CLOEXEC) = 3
+26107 fstat(3, {st_mode=S_IFREG|0644, st_size=3441, ...}) = 0
+26107 lseek(3, 0, SEEK_SET)             = 0
+26107 read(3, "root:x:0:0:root:/root:/usr/bin/z"..., 4096) = 3441
+26107 lseek(3, 35, SEEK_SET)            = 35
+26107 close(3)                          = 0
+26107 openat(AT_FDCWD, "/root/.curlrc", O_RDONLY) = -1 ENOENT (No such file or directory)
+26107 rt_sigaction(SIGPIPE, NULL, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, 8) = 0
+26107 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, NULL, 8) = 0
+26107 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, NULL, 8) = 0
+26107 ioctl(1, TCGETS2, 0x7fffab327460) = -1 ENOTTY (Inappropriate ioctl for device)
+26107 ioctl(0, TIOCGWINSZ, {ws_row=29, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+26107 eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 3
+26107 rt_sigaction(SIGPIPE, NULL, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, 8) = 0
+26107 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, NULL, 8) = 0
+26107 poll([{fd=3, events=POLLIN}], 1, 0) = 0 (Timeout)
+26107 rt_sigaction(SIGPIPE, NULL, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, 8) = 0
+26107 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, NULL, 8) = 0
+26107 socket(AF_INET6, SOCK_DGRAM, IPPROTO_IP) = 4
+26107 close(4)                          = 0
+26107 eventfd2(0, EFD_CLOEXEC)          = 4
+26107 rt_sigaction(SIGRT_1, {sa_handler=0x7fc9336910f0, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK|SA_RESTART|SA_SIGINFO, sa_restorer=0x7fc933640590}, NULL, 8) = 0
+26107 rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+26107 mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fc9317ff000
+26107 madvise(0x7fc9317ff000, 4096, MADV_GUARD_INSTALL) = 0
+26107 rt_sigprocmask(SIG_BLOCK, ~[], [], 8) = 0
+26107 clone3({flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, child_tid=0x7fc931fff990, parent_tid=0x7fc931fff990, exit_signal=0, stack=0x7fc9317ff000, stack_size=0x7ffd00, tls=0x7fc931fff6c0} <unfinished ...>
+26116 rseq(0x7fc931fff3a0, 0x20, 0, 0x53053053 <unfinished ...>
+26107 <... clone3 resumed> => {parent_tid=[26116]}, 88) = 26116
+26116 <... rseq resumed>)               = 0
+26107 rt_sigprocmask(SIG_SETMASK, [] <unfinished ...>
+26116 set_robust_list(0x7fc931fff9a0, 24 <unfinished ...>
+26107 <... rt_sigprocmask resumed>, NULL, 8) = 0
+26116 <... set_robust_list resumed>)    = 0
+26107 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590} <unfinished ...>
+26116 rt_sigprocmask(SIG_SETMASK, [] <unfinished ...>
+26107 <... rt_sigaction resumed>, NULL, 8) = 0
+26116 <... rt_sigprocmask resumed>, NULL, 8) = 0
+26107 poll([{fd=4, events=POLLIN}, {fd=3, events=POLLIN}], 2, 1 <unfinished ...>
+26116 socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 5
+26116 connect(5, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+26116 close(5)                          = 0
+26116 socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0 <unfinished ...>
+26107 <... poll resumed>)               = 0 (Timeout)
+26116 <... socket resumed>)             = 5
+26107 rt_sigaction(SIGPIPE, NULL, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, 8) = 0
+26116 connect(5, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110 <unfinished ...>
+26107 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590} <unfinished ...>
+26116 <... connect resumed>)            = -1 ENOENT (No such file or directory)
+26107 <... rt_sigaction resumed>, NULL, 8) = 0
+26116 close(5 <unfinished ...>
+26107 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590} <unfinished ...>
+26116 <... close resumed>)              = 0
+26107 <... rt_sigaction resumed>, NULL, 8) = 0
+26116 newfstatat(AT_FDCWD, "/etc/nsswitch.conf" <unfinished ...>
+26107 poll([{fd=4, events=POLLIN}, {fd=3, events=POLLIN}], 2, 2 <unfinished ...>
+26116 <... newfstatat resumed>, {st_mode=S_IFREG|0644, st_size=574, ...}, 0) = 0
+26116 mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc929600000
+26116 munmap(0x7fc929600000, 44040192)  = 0
+26116 munmap(0x7fc930000000, 23068672)  = 0
+26116 mprotect(0x7fc92c000000, 135168, PROT_READ|PROT_WRITE) = 0
+26116 newfstatat(AT_FDCWD, "/etc/resolv.conf" <unfinished ...>
+26107 <... poll resumed>)               = 0 (Timeout)
+26116 <... newfstatat resumed>, {st_mode=S_IFREG|0644, st_size=73, ...}, 0) = 0
+26107 rt_sigaction(SIGPIPE, NULL <unfinished ...>
+26116 openat(AT_FDCWD, "/etc/host.conf", O_RDONLY|O_CLOEXEC <unfinished ...>
+26107 <... rt_sigaction resumed>, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, 8) = 0
+26116 <... openat resumed>)             = 5
+26107 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590} <unfinished ...>
+26116 fstat(5 <unfinished ...>
+26107 <... rt_sigaction resumed>, NULL, 8) = 0
+26116 <... fstat resumed>, {st_mode=S_IFREG|0644, st_size=9, ...}) = 0
+26107 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590} <unfinished ...>
+26116 read(5 <unfinished ...>
+26107 <... rt_sigaction resumed>, NULL, 8) = 0
+26116 <... read resumed>, "multi on\n", 4096) = 9
+26107 poll([{fd=4, events=POLLIN}, {fd=3, events=POLLIN}], 2, 4 <unfinished ...>
+26116 read(5, "", 4096)                 = 0
+26116 close(5)                          = 0
+26116 futex(0x7fc93381d72c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+26116 openat(AT_FDCWD, "/etc/resolv.conf", O_RDONLY|O_CLOEXEC) = 5
+26116 fstat(5, {st_mode=S_IFREG|0644, st_size=73, ...}) = 0
+26116 read(5, "# Generated by NetworkManager\nse"..., 4096) = 73
+26116 read(5, "", 4096)                 = 0
+26116 fstat(5, {st_mode=S_IFREG|0644, st_size=73, ...}) = 0
+26116 close(5)                          = 0
+26116 openat(AT_FDCWD, "/etc/hosts", O_RDONLY|O_CLOEXEC) = 5
+26107 <... poll resumed>)               = 0 (Timeout)
+26116 fstat(5 <unfinished ...>
+26107 rt_sigaction(SIGPIPE, NULL <unfinished ...>
+26116 <... fstat resumed>, {st_mode=S_IFREG|0644, st_size=124, ...}) = 0
+26107 <... rt_sigaction resumed>, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, 8) = 0
+26116 lseek(5, 0, SEEK_SET <unfinished ...>
+26107 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590} <unfinished ...>
+26116 <... lseek resumed>)              = 0
+26107 <... rt_sigaction resumed>, NULL, 8) = 0
+26116 read(5 <unfinished ...>
+26107 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590} <unfinished ...>
+26116 <... read resumed>, "127.0.0.1\tlocalhost\n127.0.1.1\tka"..., 4096) = 124
+26107 <... rt_sigaction resumed>, NULL, 8) = 0
+26116 read(5 <unfinished ...>
+26107 poll([{fd=4, events=POLLIN}, {fd=3, events=POLLIN}], 2, 8 <unfinished ...>
+26116 <... read resumed>, "", 4096)     = 0
+26116 close(5)                          = 0
+26116 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 5
+26116 fstat(5, {st_mode=S_IFREG|0644, st_size=107006, ...}) = 0
+26116 mmap(NULL, 107006, PROT_READ, MAP_PRIVATE, 5, 0) = 0x7fc93239a000
+26116 close(5)                          = 0
+26116 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2", O_RDONLY|O_CLOEXEC) = 5
+26116 read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+26116 fstat(5, {st_mode=S_IFREG|0644, st_size=18504, ...}) = 0
+26116 mmap(NULL, 20496, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7fc933a0b000
+26116 mmap(0x7fc933a0c000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x1000) = 0x7fc933a0c000
+26116 mmap(0x7fc933a0e000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x3000) = 0x7fc933a0e000
+26116 mmap(0x7fc933a0f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x3000) = 0x7fc933a0f000
+26116 close(5)                          = 0
+26116 mprotect(0x7fc933a0f000, 4096, PROT_READ) = 0
+26116 munmap(0x7fc93239a000, 107006)    = 0
+26116 socket(AF_INET, SOCK_DGRAM|SOCK_CLOEXEC|SOCK_NONBLOCK, IPPROTO_IP) = 5
+26116 setsockopt(5, SOL_IP, IP_RECVERR, [1], 4) = 0
+26116 connect(5, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("192.168.88.2")}, 16) = 0
+26116 poll([{fd=5, events=POLLOUT}], 1, 0) = 1 ([{fd=5, revents=POLLOUT}])
+26116 sendmmsg(5, [{msg_hdr={msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="be\1\0\0\1\0\0\0\0\0\0\7example\3com\0\0\1\0\1", iov_len=29}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, msg_len=29}, {msg_hdr={msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\243`\1\0\0\1\0\0\0\0\0\0\7example\3com\0\0\34\0\1", iov_len=29}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, msg_len=29}], 2, MSG_NOSIGNAL) = 2
+26107 <... poll resumed>)               = 0 (Timeout)
+26116 poll([{fd=5, events=POLLIN}], 1, 5000 <unfinished ...>
+26107 rt_sigaction(SIGPIPE, NULL, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, 8) = 0
+26107 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, NULL, 8) = 0
+26107 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, NULL, 8) = 0
+26107 poll([{fd=4, events=POLLIN}, {fd=3, events=POLLIN}], 2, 16) = 0 (Timeout)
+26107 rt_sigaction(SIGPIPE, NULL, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, 8) = 0
+26107 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, NULL, 8) = 0
+26107 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, NULL, 8) = 0
+26107 poll([{fd=4, events=POLLIN}, {fd=3, events=POLLIN}], 2, 32 <unfinished ...>
+26116 <... poll resumed>)               = 1 ([{fd=5, revents=POLLIN}])
+26116 ioctl(5, FIONREAD, [85])          = 0
+26116 recvfrom(5, "\243`\201\200\0\1\0\2\0\0\0\0\7example\3com\0\0\34\0\1\300\f\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("192.168.88.2")}, [28 => 16]) = 85
+26116 poll([{fd=5, events=POLLIN}], 1, 4970) = 1 ([{fd=5, revents=POLLIN}])
+26116 ioctl(5, FIONREAD, [61])          = 0
+26116 recvfrom(5, "be\201\200\0\1\0\2\0\0\0\0\7example\3com\0\0\1\0\1\300\f\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("192.168.88.2")}, [28 => 16]) = 61
+26116 close(5)                          = 0
+26116 openat(AT_FDCWD, "/etc/gai.conf", O_RDONLY|O_CLOEXEC) = 5
+26116 fstat(5, {st_mode=S_IFREG|0644, st_size=2584, ...}) = 0
+26116 fstat(5, {st_mode=S_IFREG|0644, st_size=2584, ...}) = 0
+26116 read(5, "# Configuration for getaddrinfo("..., 4096) = 2584
+26116 read(5, "", 4096)                 = 0
+26116 close(5)                          = 0
+26116 futex(0x7fc933822f84, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+26116 socket(AF_NETLINK, SOCK_RAW|SOCK_CLOEXEC, NETLINK_ROUTE) = 5
+26116 bind(5, {sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, 12) = 0
+26116 getsockname(5, {sa_family=AF_NETLINK, nl_pid=26107, nl_groups=00000000}, [12]) = 0
+26116 sendto(5, [{nlmsg_len=20, nlmsg_type=RTM_GETADDR, nlmsg_flags=NLM_F_REQUEST|NLM_F_DUMP, nlmsg_seq=1766598024, nlmsg_pid=0}, {ifa_family=AF_UNSPEC, ...}], 20, 0, {sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, 12) = 20
+26116 recvmsg(5, {msg_name={sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, msg_namelen=12, msg_iov=[{iov_base=[[{nlmsg_len=76, nlmsg_type=RTM_NEWADDR, nlmsg_flags=NLM_F_MULTI, nlmsg_seq=1766598024, nlmsg_pid=26107}, {ifa_family=AF_INET, ifa_prefixlen=8, ifa_flags=IFA_F_PERMANENT, ifa_scope=RT_SCOPE_HOST, ifa_index=if_nametoindex("lo")}, [[{nla_len=8, nla_type=IFA_ADDRESS}, inet_addr("127.0.0.1")], [{nla_len=8, nla_type=IFA_LOCAL}, inet_addr("127.0.0.1")], [{nla_len=7, nla_type=IFA_LABEL}, "lo"], [{nla_len=8, nla_type=IFA_FLAGS}, IFA_F_PERMANENT], [{nla_len=20, nla_type=IFA_CACHEINFO}, {ifa_prefered=4294967295, ifa_valid=4294967295, cstamp=1276, tstamp=1276}]]], [{nlmsg_len=88, nlmsg_type=RTM_NEWADDR, nlmsg_flags=NLM_F_MULTI, nlmsg_seq=1766598024, nlmsg_pid=26107}, {ifa_family=AF_INET, ifa_prefixlen=24, ifa_flags=0, ifa_scope=RT_SCOPE_UNIVERSE, ifa_index=if_nametoindex("eth0")}, [[{nla_len=8, nla_type=IFA_ADDRESS}, inet_addr("192.168.88.129")], [{nla_len=8, nla_type=IFA_LOCAL}, inet_addr("192.168.88.129")], [{nla_len=8, nla_type=IFA_BROADCAST}, inet_addr("192.168.88.255")], [{nla_len=9, nla_type=IFA_LABEL}, "eth0"], [{nla_len=8, nla_type=IFA_FLAGS}, IFA_F_NOPREFIXROUTE], [{nla_len=20, nla_type=IFA_CACHEINFO}, {ifa_prefered=1670, ifa_valid=1670, cstamp=1704, tstamp=271690}]]], [{nlmsg_len=72, nlmsg_type=RTM_NEWADDR, nlmsg_flags=NLM_F_MULTI, nlmsg_seq=1766598024, nlmsg_pid=26107}, {ifa_family=AF_INET6, ifa_prefixlen=128, ifa_flags=IFA_F_PERMANENT, ifa_scope=RT_SCOPE_HOST, ifa_index=if_nametoindex("lo")}, [[{nla_len=20, nla_type=IFA_ADDRESS}, inet_pton(AF_INET6, "::1")], [{nla_len=20, nla_type=IFA_CACHEINFO}, {ifa_prefered=4294967295, ifa_valid=4294967295, cstamp=1276, tstamp=1276}], [{nla_len=8, nla_type=IFA_FLAGS}, IFA_F_PERMANENT|IFA_F_NOPREFIXROUTE]]], [{nlmsg_len=72, nlmsg_type=RTM_NEWADDR, nlmsg_flags=NLM_F_MULTI, nlmsg_seq=1766598024, nlmsg_pid=26107}, {ifa_family=AF_INET6, ifa_prefixlen=64, ifa_flags=IFA_F_PERMANENT, ifa_scope=RT_SCOPE_LINK, ifa_index=if_nametoindex("eth0")}, [[{nla_len=20, nla_type=IFA_ADDRESS}, inet_pton(AF_INET6, "fe80::f12d:721a:37e0:d950")], [{nla_len=20, nla_type=IFA_CACHEINFO}, {ifa_prefered=4294967295, ifa_valid=4294967295, cstamp=1689, tstamp=1689}], [{nla_len=8, nla_type=IFA_FLAGS}, IFA_F_PERMANENT|IFA_F_NOPREFIXROUTE]]]], iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 308
+26116 recvmsg(5, {msg_name={sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, msg_namelen=12, msg_iov=[{iov_base=[{nlmsg_len=20, nlmsg_type=NLMSG_DONE, nlmsg_flags=NLM_F_MULTI, nlmsg_seq=1766598024, nlmsg_pid=26107}, 0], iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 20
+26116 close(5)                          = 0
+26116 socket(AF_INET6, SOCK_DGRAM|SOCK_CLOEXEC, IPPROTO_IP) = 5
+26116 connect(5, {sa_family=AF_INET6, sin6_port=htons(443), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "2606:4700::6812:1b78", &sin6_addr), sin6_scope_id=0}, 28) = -1 ENETUNREACH (Network is unreachable)
+26116 connect(5, {sa_family=AF_UNSPEC, sa_data="\0\0\0\0\0\0\0\0\0\0\0\0\0\0"}, 16) = 0
+26116 connect(5, {sa_family=AF_INET6, sin6_port=htons(443), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "2606:4700::6812:1a78", &sin6_addr), sin6_scope_id=0}, 28) = -1 ENETUNREACH (Network is unreachable)
+26116 connect(5, {sa_family=AF_UNSPEC, sa_data="\0\0\0\0\0\0\0\0\0\0\0\0\0\0"}, 16) = 0
+26116 connect(5, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("104.18.26.120")}, 16) = 0
+26116 getsockname(5, {sa_family=AF_INET6, sin6_port=htons(57992), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::ffff:192.168.88.129", &sin6_addr), sin6_scope_id=0}, [28]) = 0
+26116 connect(5, {sa_family=AF_UNSPEC, sa_data="\0\0\0\0\0\0\0\0\0\0\0\0\0\0"}, 16) = 0
+26116 connect(5, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("104.18.27.120")}, 16) = 0
+26116 getsockname(5, {sa_family=AF_INET6, sin6_port=htons(33641), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::ffff:192.168.88.129", &sin6_addr), sin6_scope_id=0}, [28]) = 0
+26116 close(5)                          = 0
+26116 write(4, "\1\0\0\0\0\0\0\0", 8)   = 8
+26107 <... poll resumed>)               = 1 ([{fd=4, revents=POLLIN}])
+26116 rt_sigprocmask(SIG_BLOCK, ~[RT_1] <unfinished ...>
+26107 rt_sigaction(SIGPIPE, NULL <unfinished ...>
+26116 <... rt_sigprocmask resumed>, NULL, 8) = 0
+26107 <... rt_sigaction resumed>, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, 8) = 0
+26116 madvise(0x7fc9317ff000, 8368128, MADV_DONTNEED <unfinished ...>
+26107 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590} <unfinished ...>
+26116 <... madvise resumed>)            = 0
+26107 <... rt_sigaction resumed>, NULL, 8) = 0
+26116 exit(0 <unfinished ...>
+26107 futex(0x7fc931fff990, FUTEX_WAIT_BITSET|FUTEX_CLOCK_REALTIME, 26116, NULL, FUTEX_BITSET_MATCH_ANY <unfinished ...>
+26116 <... exit resumed>)               = ?
+26116 +++ exited with 0 +++
+26107 <... futex resumed>)              = 0
+26107 socket(AF_INET6, SOCK_STREAM|SOCK_NONBLOCK, IPPROTO_TCP) = 5
+26107 fcntl(5, F_SETFD, FD_CLOEXEC)     = 0
+26107 setsockopt(5, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+26107 setsockopt(5, SOL_SOCKET, SO_KEEPALIVE, [1], 4) = 0
+26107 setsockopt(5, SOL_TCP, TCP_KEEPIDLE, [60], 4) = 0
+26107 setsockopt(5, SOL_TCP, TCP_KEEPINTVL, [60], 4) = 0
+26107 setsockopt(5, SOL_TCP, TCP_KEEPCNT, [9], 4) = 0
+26107 connect(5, {sa_family=AF_INET6, sin6_port=htons(443), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "2606:4700::6812:1b78", &sin6_addr), sin6_scope_id=0}, 28) = -1 ENETUNREACH (Network is unreachable)
+26107 getsockname(5, {sa_family=AF_INET6, sin6_port=htons(0), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::", &sin6_addr), sin6_scope_id=0}, [128 => 28]) = 0
+26107 close(5)                          = 0
+26107 socket(AF_INET, SOCK_STREAM|SOCK_NONBLOCK, IPPROTO_TCP) = 5
+26107 fcntl(5, F_SETFD, FD_CLOEXEC)     = 0
+26107 setsockopt(5, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+26107 setsockopt(5, SOL_SOCKET, SO_KEEPALIVE, [1], 4) = 0
+26107 setsockopt(5, SOL_TCP, TCP_KEEPIDLE, [60], 4) = 0
+26107 setsockopt(5, SOL_TCP, TCP_KEEPINTVL, [60], 4) = 0
+26107 setsockopt(5, SOL_TCP, TCP_KEEPCNT, [9], 4) = 0
+26107 connect(5, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("104.18.26.120")}, 16) = -1 EINPROGRESS (Operation now in progress)
+26107 getsockname(5, {sa_family=AF_INET, sin_port=htons(59304), sin_addr=inet_addr("192.168.88.129")}, [128 => 16]) = 0
+26107 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, NULL, 8) = 0
+26107 poll([{fd=5, events=POLLOUT}, {fd=3, events=POLLIN}], 2, 1) = 0 (Timeout)
+26107 rt_sigaction(SIGPIPE, NULL, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, 8) = 0
+26107 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, NULL, 8) = 0
+26107 poll([{fd=5, events=POLLPRI|POLLOUT|POLLWRNORM}], 1, 0) = 0 (Timeout)
+26107 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, NULL, 8) = 0
+26107 poll([{fd=5, events=POLLOUT}, {fd=3, events=POLLIN}], 2, 188) = 1 ([{fd=5, revents=POLLOUT}])
+26107 rt_sigaction(SIGPIPE, NULL, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, 8) = 0
+26107 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, NULL, 8) = 0
+26107 poll([{fd=5, events=POLLPRI|POLLOUT|POLLWRNORM}], 1, 0) = 1 ([{fd=5, revents=POLLOUT|POLLWRNORM}])
+26107 getsockopt(5, SOL_SOCKET, SO_ERROR, [0], [4]) = 0
+26107 getsockname(5, {sa_family=AF_INET, sin_port=htons(59304), sin_addr=inet_addr("192.168.88.129")}, [128 => 16]) = 0
+26107 futex(0x7fc933214460, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+26107 getpid()                          = 26107
+26107 getrandom("\x0a\x5c\xc6\xa5\x6c\x4d\xe9\x77\xac\xe7\x4e\x4e\x1c\x3c\x1b\x63\x3a\xda\x28\x57\x92\x96\xf2\x6b\xc7\xc1\x90\x70\x46\x8f\xb6\x5d"..., 48, 0) = 48
+26107 futex(0x7fc9332142f0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+26107 futex(0x7fc9334c97d8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+26107 brk(0x55c5774e8000)               = 0x55c5774e8000
+26107 futex(0x7fc933214424, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+26107 futex(0x7fc93321443c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+26107 brk(0x55c577509000)               = 0x55c577509000
+26107 getpid()                          = 26107
+26107 getpid()                          = 26107
+26107 getpid()                          = 26107
+26107 getpid()                          = 26107
+26107 getpid()                          = 26107
+26107 getpid()                          = 26107
+26107 getpid()                          = 26107
+26107 getpid()                          = 26107
+26107 getpid()                          = 26107
+26107 getpid()                          = 26107
+26107 futex(0x7fc933213ad0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+26107 getpid()                          = 26107
+26107 getpid()                          = 26107
+26107 getpid()                          = 26107
+26107 getpid()                          = 26107
+26107 getpid()                          = 26107
+26107 sendto(5, "\26\3\1\6\234\1\0\6\230\3\3\22\377CA\2023U\207Zs>\200\205\226\t\244^%\1\302\352"..., 1697, MSG_NOSIGNAL, NULL, 0) = 1697
+26107 brk(0x55c57752e000)               = 0x55c57752e000
+26107 recvfrom(5, 0x55c5774fdeb3, 5, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+26107 openat(AT_FDCWD, "/etc/ssl/certs/ca-certificates.crt", O_RDONLY) = 6
+26107 fstat(6, {st_mode=S_IFREG|0644, st_size=224449, ...}) = 0
+26107 read(6, "-----BEGIN CERTIFICATE-----\nMIIH"..., 4096) = 4096
+26107 read(6, "8B1\nRXxlDPiyN8+sD8+Nb/kZ94/sHvJw"..., 4096) = 4096
+26107 read(6, "BgkqhkiG9w0BAQEFAAOCAg8AMIICCgKC"..., 4096) = 4096
+26107 read(6, "oZIhvcNAQEMBQAwQTELMAkGA1UE\nBhMC"..., 4096) = 4096
+26107 read(6, "DCCAgoCggIBAK2Wny2cSkxK\ngXlRmeyK"..., 4096) = 4096
+26107 brk(0x55c57754f000)               = 0x55c57754f000
+26107 read(6, "aAjMaZ7snkGeRDImeuKHCnE96+RapNLb"..., 4096) = 4096
+26107 read(6, "MFwGCCsGAQUFBwICMFAeTgBQAGEAcwBl"..., 4096) = 4096
+26107 read(6, "41uOKymaZN+hXe2wCQVt2yguzmKiYv60"..., 4096) = 4096
+26107 read(6, "HEy9BHcEGhyoMZCCxt8l13nIoUE9Q2\nH"..., 4096) = 4096
+26107 read(6, "1MvIB671Oi6ON7fQAUtDKXeMOZePglr4"..., 4096) = 4096
+26107 read(6, "MtQwDgYDVR0PAQH/BAQDAgEGMA8GA1Ud"..., 4096) = 4096
+26107 read(6, "gbwwgbkw\nDwYDVR0TAQH/BAUwAwEB/zA"..., 4096) = 4096
+26107 read(6, "TIwNzM3\nWjB+MQswCQYDVQQGEwJQTDEi"..., 4096) = 4096
+26107 read(6, "JGmj8PkTQkfVXjjJU30xrwCSss0smNtA"..., 4096) = 4096
+26107 brk(0x55c577570000)               = 0x55c577570000
+26107 read(6, "mwrZggvkN80V4aCRckjXtdlemrwWCrWx"..., 4096) = 4096
+26107 read(6, "GEwJERTEVMBMGA1UEChMMRC1UcnVzdCB"..., 4096) = 4096
+26107 read(6, "NBgkqhkiG9w0BAQ0FADBI\nMQswCQYDVQ"..., 4096) = 4096
+26107 read(6, "GrHhFPC+Oh25z1uxav60sUYgovseO3Dv"..., 4096) = 4096
+26107 read(6, "MYDOAdfVdp+CW7if17Q\nRSAPWXYQ1qAk"..., 4096) = 4096
+26107 read(6, "MxFTATBgNVBAoTDERpZ2lDZXJ0IEluYz"..., 4096) = 4096
+26107 read(6, "NlcnQgSW5jMRkwFwYDVQQLExB3d3cuZG"..., 4096) = 4096
+26107 read(6, "en+Q3X0dgNmBu1kmwhH+5pPi\n94DkZfs"..., 4096) = 4096
+26107 brk(0x55c577591000)               = 0x55c577591000
+26107 read(6, "PQQDAwNoADBlAjAdfKR7w4l1M+E7qUW/"..., 4096) = 4096
+26107 read(6, "vXkg==\n-----END CERTIFICATE-----"..., 4096) = 4096
+26107 read(6, "JVUzEiMCAGA1UEChMZR29vZ2xlIFRydX"..., 4096) = 4096
+26107 read(6, "BAAAAAABIVhTCKIwDQYJKoZIhvcNAQEL"..., 4096) = 4096
+26107 read(6, "aWduIFJvb3QgUjQ2MB4XDTE5MDMyMDAw"..., 4096) = 4096
+26107 read(6, "NVHQ8BAf8EBAMCAQYwHQYDVR0OBBYE\nF"..., 4096) = 4096
+26107 read(6, "R0TAQH/BAUwAwEB/zAOBgNVHQ8BAf8EB"..., 4096) = 4096
+26107 read(6, "vP2UEgEcyRHCVTjFnanRbEEV16rCf0OY"..., 4096) = 4096
+26107 brk(0x55c5775b2000)               = 0x55c5775b2000
+26107 read(6, "9yi0GE44Za4rF2LN9d11TPA\nmRGunUHB"..., 4096) = 4096
+26107 brk(0x55c5775b1000)               = 0x55c5775b1000
+26107 read(6, "QADggIBAEf63QqwEZE4rU1d9+UOl1QZg"..., 4096) = 4096
+26107 read(6, "7SViXITwfn4fs775\ntyERzAMBVnCnEJI"..., 4096) = 4096
+26107 read(6, "UGWokG2zdLAIx6yo\n0es+nPxdGoMuK8u"..., 4096) = 4096
+26107 read(6, "MDkwOTQ4MzRaFw00MjA1MDkwOTU4MzNa"..., 4096) = 4096
+26107 read(6, "PKjaJW1acvvFYfzznB4vsKqBUsfU16Y8"..., 4096) = 4096
+26107 read(6, "2sNbtrCD2dDQ4iH782CnO11gUyeim/YI"..., 4096) = 4096
+26107 read(6, "gKCAgEAjzZlQOHWTcDXtOlG2mvq\nM0fN"..., 4096) = 4096
+26107 read(6, "ZY52jvATGGAslu1OJD7OAUN5F7kR/\nq5"..., 4096) = 4096
+26107 brk(0x55c5775d2000)               = 0x55c5775d2000
+26107 brk(0x55c5775d1000)               = 0x55c5775d1000
+26107 read(6, "AyDw4jlivAgMBAAGjQjBAMA8GA1UdEwE"..., 4096) = 4096
+26107 read(6, "A1UdEwEB/wQFMAMBAf8wDgYDVR0PAQH/"..., 4096) = 4096
+26107 read(6, "BC0wKzApoCeg\nJYYjaHR0cDovL2NybC5"..., 4096) = 4096
+26107 read(6, "hcmZpZWxkIENsYXNzIDIgQ2VydGlmaWN"..., 4096) = 4096
+26107 read(6, "CN\nsSi6\n-----END CERTIFICATE----"..., 4096) = 4096
+26107 read(6, "Xuhdfsaa3Ox+M6pCSzyU9XDFES4\nhqX2"..., 4096) = 4096
+26107 read(6, "MrZQzvIt6IKTtM1/r+t+FHvpw+PoP7UV"..., 4096) = 4096
+26107 read(6, "9Ba9aDAEH9L1r3ULRn0SyocddDypwnJJ"..., 4096) = 4096
+26107 brk(0x55c5775f2000)               = 0x55c5775f2000
+26107 brk(0x55c5775f1000)               = 0x55c5775f1000
+26107 read(6, "YTAkZJMRowGAYDVQQKDBFUZWxpYSBGaW"..., 4096) = 4096
+26107 read(6, "wMjEwMjJaFw00NjA1MTkwMjEwMjJaMFo"..., 4096) = 4096
+26107 read(6, "\nQ0MgUDM4NCBDZXJ0aWZpY2F0aW9uIEF"..., 4096) = 4096
+26107 read(6, "3sGPjLtx7dCvHaj\n2GU4Kzg1USEODm8u"..., 4096) = 4096
+26107 read(6, "v4M0GkPGw/zJSZrM233bkf6\nc0Plfg6l"..., 4096) = 4096
+26107 read(6, "BAYTAlJPMRQwEgYDVQQKEwtDRVJUU0lH"..., 4096) = 4096
+26107 read(6, "6/7Nu4tCEoduL+bXPjqpRugc6bY+G7gM"..., 4096) = 4096
+26107 read(6, "6DqS0hdW5TUaQBw+jSzt\nOd9C4INBdN+"..., 4096) = 3265
+26107 brk(0x55c577612000)               = 0x55c577612000
+26107 brk(0x55c577611000)               = 0x55c577611000
+26107 read(6, "", 4096)                 = 0
+26107 close(6)                          = 0
+26107 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, NULL, 8) = 0
+26107 poll([{fd=5, events=POLLIN}, {fd=3, events=POLLIN}], 2, 97) = 1 ([{fd=5, revents=POLLIN}])
+26107 rt_sigaction(SIGPIPE, NULL, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, 8) = 0
+26107 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, NULL, 8) = 0
+26107 recvfrom(5, "\26\3\3\4\272", 5, 0, NULL, NULL) = 5
+26107 recvfrom(5, "\2\0\4\266\3\3#\301\\\250\313I\377\342c-\346\356\326\365$\234O\343\206@e\200\234=\217\t"..., 1210, 0, NULL, NULL) = 1210
+26107 recvfrom(5, "\24\3\3\0\1", 5, 0, NULL, NULL) = 5
+26107 recvfrom(5, "\1", 1, 0, NULL, NULL) = 1
+26107 recvfrom(5, "\27\3\3\17\16", 5, 0, NULL, NULL) = 5
+26107 recvfrom(5, "y\f\313\211uf !\370)&U\255#\361}\263$\1#\207\255\1\221'g\222I\353\317\311\260"..., 3854, 0, NULL, NULL) = 3854
+26107 newfstatat(AT_FDCWD, "/etc/ssl/certs/f94705a7.0", 0x7fffab3269a0, 0) = -1 ENOENT (No such file or directory)
+26107 openat(AT_FDCWD, "/etc/localtime", O_RDONLY|O_CLOEXEC) = 6
+26107 fstat(6, {st_mode=S_IFREG|0644, st_size=3552, ...}) = 0
+26107 fstat(6, {st_mode=S_IFREG|0644, st_size=3552, ...}) = 0
+26107 read(6, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0\0\6\0\0\0\0"..., 4096) = 3552
+26107 lseek(6, -2260, SEEK_CUR)         = 1292
+26107 read(6, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0\0\6\0\0\0\0"..., 4096) = 2260
+26107 lseek(6, 3551, SEEK_SET)          = 3551
+26107 close(6)                          = 0
+26107 newfstatat(AT_FDCWD, "/etc/ssl/certs/b35d1870.0", 0x7fffab3269a0, 0) = -1 ENOENT (No such file or directory)
+26107 sendto(5, "\24\3\3\0\1\1\27\3\3\0EU\\\362\r8\257\v\230\371\34\241\2165)J\30Wl\363G\211"..., 80, MSG_NOSIGNAL, NULL, 0) = 80
+26107 getsockname(5, {sa_family=AF_INET, sin_port=htons(59304), sin_addr=inet_addr("192.168.88.129")}, [128 => 16]) = 0
+26107 sendto(5, "\27\3\3\0v\6_\20\236K\2c\"\304\33b\233K#\"\354V\272\307\322~8\225C\300\241\264"..., 123, MSG_NOSIGNAL, NULL, 0) = 123
+26107 brk(0x55c577637000)               = 0x55c577637000
+26107 recvfrom(5, 0x55c5776160c3, 65653, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+26107 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, NULL, 8) = 0
+26107 poll([{fd=5, events=POLLIN}, {fd=3, events=POLLIN}], 2, 46) = 1 ([{fd=5, revents=POLLIN}])
+26107 rt_sigaction(SIGPIPE, NULL, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, 8) = 0
+26107 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, NULL, 8) = 0
+26107 recvfrom(5, "\27\3\3\1\335F\324\350p\3148+\332}\320\2035\370\32\36\325\372[.0\270x\254L\312\255d"..., 65653, 0, NULL, NULL) = 544
+26107 recvfrom(5, 0x55c5776160c3, 65653, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+26107 sendto(5, "\27\3\3\0\32\361\234\333\334\366'\340\f_Hq\r1\32\377\257\31H?\345+\20K\256\221W", 31, MSG_NOSIGNAL, NULL, 0) = 31
+26107 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, NULL, 8) = 0
+26107 poll([{fd=5, events=POLLIN}, {fd=3, events=POLLIN}], 2, 19) = 1 ([{fd=5, revents=POLLIN}])
+26107 rt_sigaction(SIGPIPE, NULL, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, 8) = 0
+26107 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, NULL, 8) = 0
+26107 recvfrom(5, "\27\3\3\0\32\236\242\30\223$h\10\257\16\374\265\36\217%\232\260\315iw\4\300\364\1\251\0354", 65653, 0, NULL, NULL) = 31
+26107 recvfrom(5, 0x55c5776160c3, 65653, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+26107 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, NULL, 8) = 0
+26107 poll([{fd=5, events=POLLIN}, {fd=3, events=POLLIN}], 2, 1) = 0 (Timeout)
+26107 rt_sigaction(SIGPIPE, NULL, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, 8) = 0
+26107 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, NULL, 8) = 0
+26107 recvfrom(5, 0x55c5776160c3, 65653, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+26107 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, NULL, 8) = 0
+26107 poll([{fd=5, events=POLLIN}, {fd=3, events=POLLIN}], 2, 1000) = 1 ([{fd=5, revents=POLLIN}])
+26107 rt_sigaction(SIGPIPE, NULL, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, 8) = 0
+26107 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, NULL, 8) = 0
+26107 recvfrom(5, "\27\3\3\0\231\307\23\277\353\364#\240'\3625}\2439\363\204\253P\275\341\216\366\215\366b!aJ"..., 65653, 0, NULL, NULL) = 733
+26107 fstat(1, {st_mode=S_IFCHR|0666, st_rdev=makedev(0x1, 0x3), ...}) = 0
+26107 ioctl(1, TCGETS2, 0x7fffab326c10) = -1 ENOTTY (Inappropriate ioctl for device)
+26107 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, NULL, 8) = 0
+26107 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, NULL, 8) = 0
+26107 write(1, "<!doctype html><html lang=\"en\"><"..., 513) = 513
+26107 rt_sigaction(SIGPIPE, NULL, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, 8) = 0
+26107 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, NULL, 8) = 0
+26107 rt_sigaction(SIGPIPE, NULL, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, 8) = 0
+26107 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, NULL, 8) = 0
+26107 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, NULL, 8) = 0
+26107 close(3)                          = 0
+26107 close(4)                          = 0
+26107 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, NULL, 8) = 0
+26107 rt_sigaction(SIGPIPE, NULL, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, 8) = 0
+26107 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, NULL, 8) = 0
+26107 sendto(5, "\27\3\3\0+\273\320\214B\32\221\263\315MB<\3\256\21\21\376\322\236Y^\203\325\317s :\347"..., 48, MSG_NOSIGNAL, NULL, 0) = 48
+26107 recvfrom(5, 0x55c5776160c3, 65653, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+26107 sendto(5, "\27\3\3\0\23\347\206\221\374\206\203\37\245\327!tk\253\361Z\33T\264\370", 24, MSG_NOSIGNAL, NULL, 0) = 24
+26107 recvfrom(5, 0x55c5776160c3, 65653, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+26107 brk(0x55c57761e000)               = 0x55c57761e000
+26107 brk(0x55c57761c000)               = 0x55c57761c000
+26107 close(5)                          = 0
+26107 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc933640590}, NULL, 8) = 0
+26107 exit_group(0)                     = ?
+26107 +++ exited with 0 +++
+26105 <... wait4 resumed>, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 26107
+26105 rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590}, {sa_handler=0x55c62c1ed4b0, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6373240590}, 8) = 0
+26105 ioctl(2, TIOCGWINSZ, {ws_row=29, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+26105 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+26105 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=26107, si_uid=0, si_status=0, si_utime=4 /* 0.04 s */, si_stime=8 /* 0.08 s */} ---
+26105 wait4(-1, 0x7ffdfa740910, WNOHANG, NULL) = -1 ECHILD (No child processes)
+26105 rt_sigreturn({mask=[]})           = 0
+26105 read(255, "", 107)                = 0
+26105 exit_group(0)                     = ?
+26105 +++ exited with 0 +++

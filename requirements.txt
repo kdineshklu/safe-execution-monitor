@@ -1,0 +1,9 @@
+
+# Python version
+python>=3.8
+
+# GUI library (usually preinstalled, listed for clarity)
+tk
+#Install python dependencies
+pip3 install -r requirements.txt
+

@@ -5,8 +5,8 @@ System Call Activity:
 0
 
 Network Activity (Preview):
-12:18:52.265984 eth0  Out IP 192.168.88.129.48181 > 192.168.88.2.domain: 54572+ A? example.com. (29)
-12:18:52.266163 eth0  Out IP 192.168.88.129.48181 > 192.168.88.2.domain: 21296+ AAAA? example.com. (29)
-12:18:52.293988 eth0  B   ARP, Request who-has 192.168.88.129 tell 192.168.88.2, length 46
-12:18:52.294008 eth0  Out ARP, Reply 192.168.88.129 is-at 00:0c:29:a9:fa:83 (oui Unknown), length 28
-12:18:52.294538 eth0  In  IP 192.168.88.2.domain > 192.168.88.129.48181: 21296 2/0/0 AAAA 2606:4700::6812:1a78, AAAA 2606:4700::6812:1b78 (85)
+12:40:21.820189 eth0  B   ARP, Request who-has 192.168.88.2 tell 192.168.88.1, length 46
+12:40:22.602712 eth0  Out IP 192.168.88.129.60376 > 192.168.88.2.domain: 47930+ A? example.com. (29)
+12:40:22.602883 eth0  Out IP 192.168.88.129.60376 > 192.168.88.2.domain: 40503+ AAAA? example.com. (29)
+12:40:22.632498 eth0  B   ARP, Request who-has 192.168.88.129 tell 192.168.88.2, length 46
+12:40:22.632519 eth0  Out ARP, Reply 192.168.88.129 is-at 00:0c:29:a9:fa:83 (oui Unknown), length 28

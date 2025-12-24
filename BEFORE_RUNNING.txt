@@ -1,0 +1,74 @@
+BEFORE RUNNING THE PROJECT
+==========================
+
+This file contains ONE-TIME SETUP steps.
+Please complete ALL steps before running the application.
+
+--------------------------------------------------
+STEP 1: CLONE THE PROJECT
+--------------------------------------------------
+
+git clone https://github.com/kdineshklu/safe-execution-monitor.git
+cd safe-execution-monitor
+
+--------------------------------------------------
+STEP 2: UPDATE SYSTEM PACKAGES
+--------------------------------------------------
+
+sudo apt update
+
+--------------------------------------------------
+STEP 3: INSTALL REQUIRED SYSTEM TOOLS
+--------------------------------------------------
+
+sudo apt install -y strace tcpdump curl python3 python3-tk
+
+Explanation:
+- strace      → monitors system calls
+- tcpdump    → captures network traffic
+- curl       → used by sample program
+- python3    → required for UI
+- python3-tk → required for GUI window
+
+--------------------------------------------------
+STEP 4: INSTALL PYTHON REQUIREMENTS
+--------------------------------------------------
+
+pip3 install -r requirements.txt
+
+Note:
+Tkinter is installed via apt, not pip.
+This command is included for completeness.
+
+--------------------------------------------------
+STEP 5: GIVE EXECUTION PERMISSIONS
+--------------------------------------------------
+
+chmod +x scripts/*.sh
+chmod +x samples/*.sh
+
+This allows Bash scripts and sample programs to run.
+
+--------------------------------------------------
+STEP 6: VERIFY PERMISSIONS (OPTIONAL)
+--------------------------------------------------
+
+ls -l scripts
+ls -l samples
+
+You should see 'x' in permissions (example: -rwxr-xr-x).
+
+--------------------------------------------------
+SETUP COMPLETE
+--------------------------------------------------
+
+You can now run the project using:
+
+1) Terminal mode  → See HOW_TO_USE.txt
+2) GUI mode       → sudo python3 ui/app.py
+
+IMPORTANT WARNING:
+Run ONLY trusted or test programs.
+Do NOT run real malware on your system.
+
+This project is for EDUCATIONAL PURPOSES ONLY.
